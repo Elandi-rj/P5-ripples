@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ripples</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="ripples.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+</head>
+
+<body>
+    <div class="buttoncontainer">
+        <button onclick="resetArray()">Reset</button>
+        <button onclick="boost()">BOOST</button>
+
+    </div>
+    <div class="slidecontainer">
+        <input type="range" min="85" max="100" value="90" class="slider" id="myRange">
+        <p>Dampening: <span id="demo"></span></p>
+    </div>
+    <div class="slidecontainer">
+        <input type="range" min="-400" max="400" value="-50" class="slider" id="myStrengthRange">
+        <p>Strength: <span id="demoStrength"></span></p>
+    </div>
+    <div class="slidecontainer">
+        <input type="range" min="10" max="200" value="100" class="slider" id="myScaleRange">
+        <p>Resolution: <span id="demoScale"></span></p>
+    </div>
+    <input id="chkbox" class="check" type="checkbox" checked>
+
+    <script src="ripples.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-color: #37383b;
+    margin: 0;
+}
+p{
+    color: white;
+    float: left;
+    margin: 7px;
+}
+input{
+  margin: 0px;
+  padding: 0px;
+}
+.buttoncontainer{
+  float: left;
+  margin-left: 10px;
+}
+.slidecontainer{
+  float: left;
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: rgb(52, 94, 209);
+  cursor: pointer;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 10px;
+}
+
+.check {
+  width: 10px;
+}
