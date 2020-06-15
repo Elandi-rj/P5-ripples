@@ -4,4 +4,4 @@ Simulating water ripples with a very efficient formula found <a href="https://we
 
 https://elandi-rj.github.io/ripples/ripples.html (Much faster on google chrome)
 
-<img src="http://puu.sh/Fdgj5/45140f7e30.jpg" alt="Italian Trulli">
+[![](http://img.youtube.com/vi/CVjYqxsCd6o/0.jpg)](http://www.youtube.com/watch?v=CVjYqxsCd6o "")
